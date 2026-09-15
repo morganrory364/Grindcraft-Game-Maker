@@ -27,6 +27,10 @@ addResources({                                          // Function for adding a
     "dirt hut": {
         image: "images/dirtHut.png",
     },
+        },
+    "booger plate": {
+        image: "images/images(1).jpg",
+    },
 });
 
 // Areas
@@ -97,6 +101,13 @@ addArea("c",                                            // Function for adding a
             type: "craft",
             cost: [["dirt", 23], ["crafting table", 1], ["door", 1]],
             message: "You have beaten the game!",
+        },
+              {
+            name: "booger plate",
+            desc: "Required to build a dirt hut",
+            type: "craft",
+            amount: 3,
+            cost: [["planks", 6]],
         },
     ],
 
